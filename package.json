@@ -1,0 +1,15 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "Inbox - Hello world to Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/worldofprasanna/hello-world-ethereum.git"
+  }
+}
