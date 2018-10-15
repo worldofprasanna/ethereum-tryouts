@@ -14,6 +14,18 @@ beforeEach(async () => {
        .send({from: accounts[0], gas: '1000000'});
 });
 
-it('deploys contract', ()=>{
-    assert.ok(inbox.options.address);
+describe('Inbox', () => {
+    it('deploys contract', ()=>{
+        assert.ok(inbox.options.address);
+    });
+    it('should have message Hi there', async () => {
+        const actualMessage = await inbox.methods.message().call();
+        assert.equal(actualMessage, "Hi there");
+    });
+    it('should update the message value', async () => {
+        await inbox.methods.setMessage("bye").send({ from: accounts[0] });
+        const actualMessage = await inbox.methods.message().call();
+        assert.equal(actualMessage, "bye");
+    });
 });
+
