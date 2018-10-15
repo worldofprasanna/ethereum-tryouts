@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/worldofprasanna/hello-world-ethereum.svg?branch=master)](https://travis-ci.com/worldofprasanna/hello-world-ethereum)
+
 #Ethereum Tryouts
 
 1. To run the unit tests,
