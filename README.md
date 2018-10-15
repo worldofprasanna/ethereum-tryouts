@@ -2,7 +2,7 @@
 
 # Ethereum Tryouts
 
-Created smart contract and deployed it to [Rinkeby test network](http://rinkeby-faucet.com). Used [metamask](https://metamask.io/) to get ethers for Rinkeby network and tested using [remix tool](https://remix.ethereum.org).
+Created smart contract and deployed it to [Rinkeby test network](https://rinkeby.etherscan.io). Used [metamask](https://metamask.io/) to get ethers for Rinkeby network and tested using [remix tool](https://remix.ethereum.org).
 
 1. To run the unit tests,
 `npm run test`
